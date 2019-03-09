@@ -1,0 +1,17 @@
+{
+  "name": "soal-7",
+  "version": "1.0.0",
+  "description": "soal nomor 7 arkademy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Fajri",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0"
+  }
+}

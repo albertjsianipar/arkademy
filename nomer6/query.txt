@@ -1,0 +1,1 @@
+SELECT categories.id, categories.name AS category_name, GROUP_CONCAT(products.name ORDER BY products.name SEPARATOR ', ') AS products FROM categories JOIN products ON products.category_id = categories.id GROUP BY categories.id;
